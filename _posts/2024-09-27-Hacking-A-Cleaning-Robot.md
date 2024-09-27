@@ -21,7 +21,15 @@ The robot itself is rather simple. It drives around in fixed
  patterns, reversing and turning away if it hits something with its front bumper.
 It is turned on using a switch at the top and can be charged using an external 14.4V Power Supply. 
 
-Todo: picture here
+
+The following images show the robot from the outside and inside:
+
+<figure class="half" style="display:flex">
+    <img style="width:350px" src="{{site.baseurl}}/media/robot/robot.PNG" alt="The Topan TP-AVC701 Cleaning Robot">
+    <img style="width:350px" src="{{site.baseurl}}/media/robot/robot_inside.jpg" alt="Inside the robot" >
+</figure>
+
+As you can see, there is a lot of space for modifications and tinkering. Note that I already removed some unneeded parts like the vacuum motor.
 
 ## Main PCB Features
 The default PCB already comes with a good set of features, namely:
