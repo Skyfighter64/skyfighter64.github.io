@@ -7,3 +7,9 @@ categories: test
 
 ## This is a test
 This is a test page to test jekyll pages.
+Write markdown here
+
+```py
+if (True):
+    print("test test test")
+```
