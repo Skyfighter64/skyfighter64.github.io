@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hacking a cleaning Robot - Topan AVC701 PCB Analysis"
+title:  "Topan AVC701 PCB Analysis | Hacking a cleaning Robot"
 date:   2024-09-23 00:02:54 +0200
 categories: robot
 ---

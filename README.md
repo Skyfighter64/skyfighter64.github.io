@@ -6,7 +6,7 @@ It contains mostly summaries of some of my personal projects.
 
 ## Building the website
 Note: jekyll, ruby and builder need to be installed first
-Build Locally:
+Build  and run locally:
 ```sh
 bundle exec jekyll serve
 ```
