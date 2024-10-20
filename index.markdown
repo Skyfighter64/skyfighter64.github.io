@@ -4,12 +4,25 @@
 
 layout: home
 ---
- 
-This is the home page of Skyfighter64.
+
+---
+# Welcome to my homepage :)
+---
+<br/>
+
+This page is all about my personal projects, ideas and personal interests. Here you can find the newest and latest infos on my stuff and enjoy some computer science, electrical engineering and technology-related contents.
+
+__<u>Things you may find here include:</u>__
+- Some Robotics
+- Microcontroller stuff
+- Info's on repairs i've done (todo: link ifixit)
+- Maybe some math (but not too much :>)
+- A little 3D-Printing
+- A LOT of LED's
+- and more...
 
 
-## Introduction:
-Here I am posting summaries of some of my free-time projects.
-As you might notice, this page is still work-in-progress, so there might be some placeholders and bugs.
+Below are my most recent blog posts. <br/>
+There aren't many yet but I'll try to add more in the future.
 
-Below you can find my most recent Blogpost containing updates for my current projects.
+Also check out my [GitHub](https://www.github.com/Skyfighter64) for all the code and more.
