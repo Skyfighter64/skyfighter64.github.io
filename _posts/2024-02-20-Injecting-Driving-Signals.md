@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Injecting Driving Signals | Hacking a cleaning Robot"
-date:   2024-09-23 00:02:54 +0200
+date:   2024-10-20 00:00:33 +0200
 categories: robot
 ---
 
