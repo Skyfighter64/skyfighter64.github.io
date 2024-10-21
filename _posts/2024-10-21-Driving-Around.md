@@ -22,14 +22,13 @@ To set the speed and direction of each wheel using a simple function call like:
 //drive forward
 leftWheel.Drive(speed=255)
 //drive backwards
-
 ```
 I needed some kind of script communicating with the motor drivers on the mainboard.
 
 
-This could then be helpful for more abstract ways driving like using inverse kinematics (more on that later).
+This would then be helpful for more abstract ways of driving like using inverse kinematics (more on that later).
 
-So the task for the motor driver script is to drive one of the wheels in the following way:
+The task for the motor driver script would be to drive one of the wheels in the following way:
 - Drive the motor with a given speed
 - Drive in reverse when a negative speed is given
 - Be able to drive at slower than full speed (eg. 50% speed)
@@ -39,13 +38,15 @@ So the task for the motor driver script is to drive one of the wheels in the fol
 
 
 
-Realizing this was very straight forward. I only needed to provide the PWM-Signals corresponding to a certain speed to the forward or backwards inputs of the motor driver and check if its within certain boundaries. 
+Realizing this was very straight forward. I only needed to provide the PWM-Signals corresponding to a wanted speed to the forward or backwards inputs of the motor driver and check if it's within certain boundaries. 
 
-The minimum speed requirement was needed since I found out that the motors were actually not turning for PWM-Signals below a certain amount. This way I can just turn the motors of if such a speed is given.
+The minimum speed requirement mentioned above was needed since I found out that the motors were actually not turning for PWM-Signals below a certain threshold. This way I can just turn the motors of if such a speed is given, hopefully preventing them from getting fried.
 
-For future uses I also added some getter functions to retrieve the current speed and driving direction from the motor. 
+For future use I also added some functions to retrieve the current speed and driving direction from the motor. 
 
 The resulting code can be found in [motor_driver.cpp](https://github.com/Skyfighter64/Robocore/blob/main/src/core/motor_driver.cpp) inside my [Robocore](https://github.com/Skyfighter64/Robocore) project.
 
 
 ## Inverse Kinematics
+
+//todo
