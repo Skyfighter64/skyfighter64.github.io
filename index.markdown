@@ -15,7 +15,7 @@ This page is all about my personal projects, ideas and personal interests. Here 
 __<u>Things you may find here include:</u>__
 - Some Robotics
 - Microcontroller stuff
-- Info's on repairs i've done (todo: link ifixit)
+- Info's on repairs i've done
 - Maybe some math (but not too much :>)
 - A little 3D-Printing
 - A LOT of LED's
