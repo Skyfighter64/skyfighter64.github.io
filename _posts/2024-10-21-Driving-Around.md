@@ -43,11 +43,7 @@ The minimum speed requirement mentioned above was needed since I found out that 
 
 For future use I also added some functions to retrieve the current speed and driving direction from the motor. 
 
-The resulting code can be found in [motor_driver.cpp](https://github.com/Skyfighter64/Robocore/blob/main/src/core/motor_driver.cpp) inside my [Robocore](https://github.com/Skyfighter64/Robocore) project.
-
-
-# todo explain shorthand what the script can do
-
+The resulting code can be found in [motor_driver.cpp](https://github.com/Skyfighter64/Robocore/blob/main/src/core/motor_driver.cpp) inside my [Robocore](https://github.com/Skyfighter64/Robocore) project. It contains a class representing one motor with its GPIO pins and interacts with the motor controller to provide functions for getting and setting the motor speed.
 
 ## Inverse Kinematics
 
@@ -77,8 +73,11 @@ In the beginning, I first had to actually specify how I wanted the kinematics to
 My first Idea was to give the robot a trajectory as a circle radius and the driving speed. This way the robot would set the speed of its wheels to follow this given circle.
 
 
-# todo: image of trajectory
 
+<figure>
+    <img src="{{site.baseurl}}/media/robot/circle_driving.png" alt="Robot driving on circle trajectory"/>
+  <figcaption>Robot driving on circle trajectory</figcaption>
+</figure>
 This approach however turned out to be unfitting for my purposes for the following reasons:
 1. Two of the most common movements require ugly edge cases.
 Driving straight forward requires the radius to be infinitely large and turning on the spot would need a radius which is 0.
@@ -123,7 +122,6 @@ For the non-constant speed of the other wheel, we used simple trigonometry, name
   <figcaption>Example for the trigonometry for one of the four sections</figcaption>
 </figure>
 
-# todo: vorzeichen falsch auf dem bild
 
 This resulted in the following inverse kinematics:
 
