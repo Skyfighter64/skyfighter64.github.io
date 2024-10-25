@@ -35,13 +35,13 @@ As you can see, there is a lot of space for modifications and tinkering. Note th
 The default PCB already comes with a good set of features, namely:
 - Battery Charging/Discharging logic
 - Motor Driver for both wheel motors
-- On/Off controll for the vacuum motor
+- On/Off control for the vacuum motor
 - Collision Detection using the front bumper
 - Two DC/DC Converters
 
 
 ## PCB Sections
-The following image shows the different purposes I detemined for the different areas of the main PCB. Each feature is explained in more detail below.
+The following image shows the different purposes I determined for the different areas of the main PCB. Each feature is explained in more detail below.
 <img src="{{site.baseurl}}/media/robot/main_pcb.PNG" alt="Main PCB Blocks" width="1000"/>
 
 ### 6-Pin Connector
@@ -50,18 +50,18 @@ The 6 Pin JST connector on the right side connects the main PCB to two small dau
 | Pin | Purpose                                 |
 |-----|-----------------------------------------|
 | 1   | `V_battery` (Positive battery terminal) |
-| 2   | `V_psu` (Positive Powersupply termial)  |
+| 2   | `V_psu` (Positive Power supply terminal)  |
 | 3   | Power Switch (ON: `V_battery`, OFF: NC) |
 | 4   | Ground                                  |
 | 5   | Vacuum Motor +                          |
 | 6   | Vacuum Motor -                          |
 
-Note that the Power Switch at Pin 3 is connected to V_battery if the switch is turned ON. This serves as the main power source for the robot when running. Connector Pin 1 on the other hand is allways connected to the Battery and is used to charge the robot when a PSU is present. 
+Note that the Power Switch at Pin 3 is connected to V_battery if the switch is turned ON. This serves as the main power source for the robot when running. Connector Pin 1 on the other hand is always connected to the Battery and is used to charge the robot when a PSU is present. 
 
 
 ### Main IC
 
-The main IC seems to be either a microcontroller or (more likely) a custom made ASIC. It controlls basically everything on the robot including:
+The main IC seems to be either a microcontroller or (more likely) a custom made ASIC. It controls basically everything on the robot including:
 - Both driving Motor's speed
 - Vacuum Motor ON/OFF
 - Battery charging
@@ -122,9 +122,9 @@ out = (V_motor >= V_logic) or (max(V_psu, V_switch) >= V_logic)
 ```
 
 > __Note:__ \
-> The exact purpose of the Comparator is currently unclear to me. Unfortunately, I don't have the orignal PSU anymore and therefore cannot confirm my theories.
+> The exact purpose of the Comparator is currently unclear to me. Unfortunately, I don't have the original PSU anymore and therefore cannot confirm my theories.
 >
-> The measurements using another Power Supply did not replicate my expected behaviour so take this section with a grain of salt. 
+> The measurements using another Power Supply did not replicate my expected behavior so take this section with a grain of salt. 
 
 
 Depending on the logic signal of the comparator (and maybe something else), the main IC enables the battery charging logic, which checks if a PSU is present, and if so, connects `V_battery` and `V_PSU` together using a MOSFET.
