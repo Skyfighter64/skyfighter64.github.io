@@ -13,3 +13,5 @@ Write markdown here
 if (True):
     print("test test test")
 ```
+
+$$4^{2} \cdot \frac{12}{3} = \gamma$$

@@ -54,6 +54,5 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-markdown: kramdown
-kramdown:
-    math_engine: katex
+include:
+  - _includes/head.html
