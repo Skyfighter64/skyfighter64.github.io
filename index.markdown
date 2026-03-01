@@ -13,21 +13,6 @@ layout: home
 
 This page is all about my personal projects, ideas and personal interests. Here you can find the newest and latest infos on my stuff and enjoy some computer science, electrical engineering and technology-related contents.
 
-# my areas of interest
-
-
-# Featured Projects
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;">
-  <div>Project 1</div>
-  <div>Project 2</div>
-  <div>Project 3</div>
-  <div>Project 4</div>
-</div>
-
-<br/>
-# Links: 
-[Projects]()
-
 __<u>Things you may find here include:</u>__
 - Some Robotics
 - Microcontroller stuff
@@ -38,9 +23,29 @@ __<u>Things you may find here include:</u>__
 - and more...
 
 
-Below are my most recent blog posts. <br/>
-There aren't many yet but I'll try to add more in the future.
+# Featured Projects
+<div class="grid">
+  {% assign featured_projects = site.projects | where: "featured", true %}
+  {% for project in featured_projects %}
+    <div class="card">
+      <h3>
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      </h3>
+      <p>{{ project.description }}</p>
+    </div>
+  {% endfor %}
+</div>
 
-Also check out my [GitHub](https://www.github.com/Skyfighter64) for all the code and more.
 
+<br/>
+
+---
+# Social Links: 
+- [GitHub](https://github.com/Skyfighter64)
+- [iFixit](https://www.ifixit.com/User/Contributions/4374656)
+- [Printables](https://www.printables.com/@Skyfighter)
+
+---
+<br/>
 Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/)
+<br/>
