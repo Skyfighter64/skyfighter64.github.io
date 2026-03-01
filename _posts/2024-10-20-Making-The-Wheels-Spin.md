@@ -48,7 +48,7 @@ While looking over the robot's main board, I found two unused spots for JST-Conn
 
 ## Injecting signals into the motor drivers
 To use the microcontroller for driving the robot, I had to find a way to connect the ESP32's GPIO-Pins to the input of the motor drivers.
-Remembering what I've learned from the PCB-Analysis, I figuered that the best way to approach this would be to replace the pins 8,9,12 and 13 of the main IC with my own GPIO signals.
+Remembering what I've learned from the PCB-Analysis, I figured that the best way to approach this would be to replace the pins 8,9,12 and 13 of the main IC with my own GPIO signals.
 
 My first idea was to cut off the corresponding legs of the main IC and solder the cables to the remaining holes. This turned out to be very hard, since reaching the little legs with even the smallest side-cutters I had was next to impossible, and unsoldering the whole chip would be pretty inconvenient.
 
