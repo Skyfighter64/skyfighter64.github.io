@@ -2,6 +2,7 @@
 layout: post
 title: Robotics
 description: Collection of my robotics related posts
+featured: true
 ---
 
 ## Related Posts

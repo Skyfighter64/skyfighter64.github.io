@@ -3,6 +3,7 @@ layout: page
 title: ALUP - Arudino LED USB Protcol
 description: Protocol Standard for addressing ARGB LEDs 
 date: 2026-03-01 14:46:00 +0100
+featured: true
 ---
 
 ![Addressasble LEDs](/media/alup/leds_on.JPG)
