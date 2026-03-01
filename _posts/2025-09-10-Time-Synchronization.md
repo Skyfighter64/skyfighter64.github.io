@@ -3,6 +3,7 @@ layout: post
 title:  "Time Synchronization for the ALUP Protocol"
 date:   2025-09-10 00:14:49 +0200
 categories: timesync
+project: alup
 ---
 
 *This post is part of a series about my [ALUP Protocol](https://github.com/Skyfighter64/ALUP) side project.*

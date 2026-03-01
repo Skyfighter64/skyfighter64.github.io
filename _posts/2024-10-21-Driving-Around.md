@@ -3,6 +3,7 @@ layout: post
 title:  "Driving Around | Hacking a cleaning Robot"
 date:   2024-10-21 23:51:33 +0200
 categories: robot
+project: robotics
 ---
 
 

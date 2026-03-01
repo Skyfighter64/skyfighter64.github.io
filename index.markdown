@@ -26,6 +26,7 @@ This page is all about my personal projects, ideas and personal interests. Here 
 
 <br/>
 # Links: 
+[Projects]()
 
 __<u>Things you may find here include:</u>__
 - Some Robotics
