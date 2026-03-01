@@ -53,3 +53,11 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - _includes/head.html
+
+collections:
+projects:
+  output: true
+  permalink: /projects/:name/

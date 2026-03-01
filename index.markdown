@@ -4,6 +4,7 @@
 
 layout: home
 ---
+![Test Image](media/index/nordseher-castle-crop.JPG)
 
 ---
 # Welcome to my homepage :)
@@ -11,6 +12,20 @@ layout: home
 <br/>
 
 This page is all about my personal projects, ideas and personal interests. Here you can find the newest and latest infos on my stuff and enjoy some computer science, electrical engineering and technology-related contents.
+
+# my areas of interest
+
+
+# Featured Projects
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;">
+  <div>Project 1</div>
+  <div>Project 2</div>
+  <div>Project 3</div>
+  <div>Project 4</div>
+</div>
+
+<br/>
+# Links: 
 
 __<u>Things you may find here include:</u>__
 - Some Robotics
@@ -26,3 +41,5 @@ Below are my most recent blog posts. <br/>
 There aren't many yet but I'll try to add more in the future.
 
 Also check out my [GitHub](https://www.github.com/Skyfighter64) for all the code and more.
+
+Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/)
