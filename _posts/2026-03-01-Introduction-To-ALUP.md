@@ -5,8 +5,10 @@ date:   2026-03-01 14:53:33 +0100
 project: alup
 ---
 
-## Introduction
+## What it's all about
 Many people know traditional LED strips, where you can change the color of all LEDs using a small Remote. For Addressable LED strips however, you get the possibility to change the color of every LED individually. To control the color of each LED however, one often either uses some kind of  Controller which only has some preprogrammed patterns, or a microcontroller which needs to be programmed manually and is limited in its performance and features.
+
+![Addressasble LEDs](/media/alup/led_off.JPG)
 
 But what if I want to do MORE than this?
 
@@ -22,12 +24,15 @@ This makes it possible for the computer to "tell" the LED strip things like:
 - "Make all LEDs go dark"
 - "The LEDs 5, 6 and 9 should switch to green in 1 second from now"
 
+
 By making this kind of communication possible, a whole new world of possibilities opens up. Users can now use the power of their computer for example to:
 - Create complex music visualization with lots of audio processing
 - Synchronize multiple LED-Strips to show the same things at exactly the same time
 - Light up their room depending on images shown on their computer screen
 - Create light shows based on music videos
 and so much more.
+
+![Addressasble LEDs](/media/alup/leds_on.JPG)
 
 
 ## Where to learn more
