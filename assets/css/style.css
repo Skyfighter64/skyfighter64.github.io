@@ -1,0 +1,22 @@
+.image-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  width: 800px;
+  height: 180px;
+  max-width: 100%;
+}
+
+.image-row img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.image-box {
+  overflow: hidden;
+  width: 100%;
+  height: 80%;
+}

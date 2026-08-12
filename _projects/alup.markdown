@@ -6,19 +6,19 @@ date: 2026-03-01 14:46:00 +0100
 featured: true
 ---
 
-![Addressasble LEDs](/media/alup/leds_on.JPG)
+![Addressable LEDs](/media/alup/leds_on.JPG)
 
 ## Overview
 The Arduino LED USB Protocol is one of my biggest and most passionate personal projects.
 
-It defines a protocol standard for controlling addressable LEDs from any Computer over USB, WiFi, or any other connection.
+It defines a protocol standard for controlling addressable LEDs from any computer over USB, WiFi, or any other connection.
 <br/><br/>
 
 ## Project Goals:
 Make the usage of addressable LEDs 
-- Accessible for any device like a Computer, Laptops and more
-- Usable via any connection like USB, WiFi, and more
-- Update in Real Time and Synchronously over multiple LED strips
+- Accessible for any device like a computer, laptop and more
+- Usable via any connection like USB, WiFi or others
+- Update in real-time and synchronously over multiple LED strips
 
 
 # Start Here: 

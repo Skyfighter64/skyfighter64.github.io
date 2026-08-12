@@ -5,21 +5,29 @@
 layout: home
 ---
 ![Test Image](media/index/nordseher-castle-crop.JPG)
-
----
+<br/>
+Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/)
+<br/>
 # Welcome to my homepage :)
 ---
 <br/>
+I am a university student, currently doing my master's degree in computer science.
+This page is all about my personal projects, ideas, hobbies and interests. Here you can find the newest and latest infos and enjoy some computer science, electrical engineering and technology-related contents.
 
-This page is all about my personal projects, ideas and personal interests. Here you can find the newest and latest infos on my stuff and enjoy some computer science, electrical engineering and technology-related contents.
 
-__<u>Things you may find here include:</u>__
-- Some Robotics
-- Microcontroller stuff
-- Info's on repairs i've done
-- Maybe some math (but not too much :>)
-- A little 3D-Printing
-- A LOT of LED's
+__<u>Professional Interests:</u>__ \
+To bridge the barrier between hardware and software, I am creating optimized solutions using my skills in coding, 3D printing and physics in the areas of:
+
+- Mobile Robots, Robot Arms and Robotic Hands
+- Microcontrollers and Embedded Devices
+- Communication and Networking
+
+__<u>My personal interest and hobbies:</u>__
+- Working on my Robotics and Embedded projects
+- Lighting up the world with my addressable LEDs
+- Repairing and fixing everyday items
+- CAD design, 3D-Printing and 3D printer hardware
+- Photography
 - and more...
 
 
@@ -46,6 +54,3 @@ __<u>Things you may find here include:</u>__
 - [Printables](https://www.printables.com/@Skyfighter)
 
 ---
-<br/>
-Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/)
-<br/>

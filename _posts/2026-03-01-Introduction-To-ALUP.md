@@ -6,33 +6,35 @@ project: alup
 ---
 
 ## What it's all about
-Many people know traditional LED strips, where you can change the color of all LEDs using a small Remote. For Addressable LED strips however, you get the possibility to change the color of every LED individually. To control the color of each LED however, one often either uses some kind of  Controller which only has some preprogrammed patterns, or a microcontroller which needs to be programmed manually and is limited in its performance and features.
+Many people know traditional RGB LED strips, where you can change the color of all LEDs using a small remote. With addressable LED strips however, it is possible change the color of every single LED individually.
 
-![Addressasble LEDs](/media/alup/led_off.JPG)
+To do so, you can either use an off-the-shelf controller which is limited to some preprogrammed patterns, or a microcontroller which needs to be programmed manually and is limited in its performance and features.
 
-But what if I want to do MORE than this?
+![Addressable LEDs](/media/alup/led_off.JPG)
 
-What if I would like to use the computational power, connectivity and flexibility of a PC, Laptop, or other device?
+But what if I want to do **more** than this?
+
+What if I would like to use the computational power, connectivity and flexibility of a computer, laptop, or similar device to create complicated animations or interactive patterns?
 
 This is where ALUP comes in. 
-ALUP builds the bridge between the LEDs and a powerful Computer by using a Microcontroller to "translate" instructions Between Computer and LEDs.
+ALUP builds the bridge between the LEDs and a powerful computer by using a microcontroller to "translate" instructions between computer and LEDs.
 
-More Specifically, it defines how the Computer and the Microcontroller have to communicate in order to successfully transfer commands directly to the LEDs.
+More Specifically, it defines how the computer and the Microcontroller have to communicate in order to successfully transfer commands directly to the LEDs.
 
 This makes it possible for the computer to "tell" the LED strip things like:
-- "I want LED 5 to be Red"
+- "I want LED 5 to be red"
 - "Make all LEDs go dark"
 - "The LEDs 5, 6 and 9 should switch to green in 1 second from now"
 
 
-By making this kind of communication possible, a whole new world of possibilities opens up. Users can now use the power of their computer for example to:
-- Create complex music visualization with lots of audio processing
+By enabling this kind of communication, a whole new world of possibilities opens up. Users can now use the power of their computer for example to:
 - Synchronize multiple LED-Strips to show the same things at exactly the same time
-- Light up their room depending on images shown on their computer screen
-- Create light shows based on music videos
+- Light up their room depending on images shown on their computer screen 
+- Create complex music visualization with lots of audio processing (like my [Audio Visualizer](https://github.com/Skyfighter64/Audio-Visualizer))
+- Create light shows based on music videos (as in my [ALUP-Lightshow](https://github.com/Skyfighter64/ALUP-Lightshow) project)
 and so much more.
 
-![Addressasble LEDs](/media/alup/leds_on.JPG)
+![Addressable LEDs](/media/alup/leds_on.JPG)
 
 
 ## Where to learn more
@@ -40,7 +42,7 @@ and so much more.
 If you are interested in this project, I suggest checking out more posts here:
 - [ALUP Project Page](/projects/alup)
 
-Also make sure to check out my [GitHub](https://github.com/Skyfighter64/), where all the code and documentation is hosted.
+Also make sure to check out my [GitHub](https://github.com/Skyfighter64/), where all the code and documentation is hosted. Some of the relevant repos are linked below.
 
 ## GitHub Projects
 - [ALUP-Protocol Definition](https://github.com/Skyfighter64/ALUP) - Textual definition of the ALUP Communication Protocol itself
