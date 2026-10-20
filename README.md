@@ -12,3 +12,9 @@ Build  and run locally:
 bundle exec jekyll serve
 ```
 The online version is built automatically as soon as changes are applied to the gh-pages branch.
+
+
+## Notes for myself:
+
+- add rounded corners to images: `class="rounded-image`
+- Disable Lightbox for images: add `class="no-lightbox"`

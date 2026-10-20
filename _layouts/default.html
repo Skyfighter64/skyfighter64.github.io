@@ -46,5 +46,54 @@
       {left: '\\[', right: '\\]', display: true}
     ]
   });"></script>
+
+  <div id="shared-lightbox" class="shared-lightbox"
+     role="dialog" aria-modal="true"
+     aria-label="Enlarged image">
+  <button type="button" class="lightbox-close"
+          aria-label="Close enlarged image">&times;</button>
+  <img src="" alt="">
+</div>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const lightbox = document.getElementById("shared-lightbox");
+    const enlargedImage = lightbox.querySelector("img");
+    const closeButton = lightbox.querySelector(".lightbox-close");
+
+    // Open any gallery or rounded image when clicked
+    document.querySelectorAll(".image-gallery img:not(.no-lightbox), img.rounded-image:not(.no-lightbox)").forEach(function (thumbnail) {
+        thumbnail.addEventListener("click", function () {
+          enlargedImage.src = thumbnail.currentSrc || thumbnail.src;
+          enlargedImage.alt = thumbnail.alt || "Enlarged image";
+          lightbox.classList.add("is-open");
+          document.body.style.overflow = "hidden";
+          closeButton.focus();
+        });
+      });
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      enlargedImage.src = "";
+      document.body.style.overflow = "";
+    }
+
+    closeButton.addEventListener("click", closeLightbox);
+
+    // Close when clicking the dark background
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    // Close with Escape
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
+  });
+  </script>
   </body>
 </html>

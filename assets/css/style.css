@@ -45,3 +45,85 @@
 .rounded-image {
   border-radius: 6px;
 }
+.shared-lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  z-index: 2147483647;
+  background: rgba(0, 0, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  cursor: zoom-out;
+}
+
+.shared-lightbox.is-open {
+  display: flex;
+}
+
+.shared-lightbox img {
+  max-width: 95%;
+  max-height: 90vh;
+  max-height: 90dvh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  cursor: default;
+}
+
+.shared-lightbox .lightbox-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: white;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.shared-lightbox .lightbox-close:hover {
+  opacity: 1;
+}
+.shared-lightbox .lightbox-close,
+.shared-lightbox .lightbox-close:hover,
+.shared-lightbox .lightbox-close:focus,
+.shared-lightbox .lightbox-close:focus-visible,
+.shared-lightbox .lightbox-close:active {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  -webkit-appearance: none;
+  appearance: none;
+}
+figure {
+  margin: 24px 0;
+}
+
+figcaption {
+  margin-top: 10px;
+  padding-left: 12px;
+  /* border-left: 3px solid #8b9b83;
+  border-right: 3px solid #8b9b83; */
+  color: hsl(0, 0%, 22%);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.rss-subscribe {
+  display: none !important;
+}
