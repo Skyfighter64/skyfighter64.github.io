@@ -1,3 +1,7 @@
+@import "{{ site.theme }}";
+
+/* Custom styles */
+
 .image-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
