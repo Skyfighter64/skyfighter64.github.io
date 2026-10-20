@@ -4,7 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="image-row">
+<div class="image-gallery" style="--columns: 3;
+            --gallery-width: 1100px;
+            --image-height: 150px;">
   <img src="/media/index/code.png" alt="Code Snippet">
   <img src="/media/alup/d1_mini_pcb.jpg" alt="PCB">
   <img src="/media/alup/leds_on.JPG" alt="ARGB LED Strip">

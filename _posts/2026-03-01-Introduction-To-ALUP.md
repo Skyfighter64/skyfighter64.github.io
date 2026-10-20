@@ -10,7 +10,7 @@ Many people know traditional RGB LED strips, where you can change the color of a
 
 To do so, you can either use an off-the-shelf controller which is limited to some preprogrammed patterns, or a microcontroller which needs to be programmed manually and is limited in its performance and features.
 
-![Addressable LEDs](/media/alup/led_off.JPG)
+<img src="{{site.baseurl}}/media/alup/led_off.JPG" alt="Addressable LEDs" class="rounded-image"/>
 
 But what if I want to do **more** than this?
 
@@ -34,7 +34,7 @@ By enabling this kind of communication, a whole new world of possibilities opens
 - Create light shows based on music videos (as in my [ALUP-Lightshow](https://github.com/Skyfighter64/ALUP-Lightshow) project)
 and so much more.
 
-![Addressable LEDs](/media/alup/leds_on.JPG)
+<img src="{{site.baseurl}}/media/alup/leds_on.JPG" alt="Addressable LEDs" class="rounded-image"/>
 
 
 ## Where to learn more

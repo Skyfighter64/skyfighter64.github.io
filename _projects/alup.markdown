@@ -6,7 +6,8 @@ date: 2026-03-01 14:46:00 +0100
 featured: true
 ---
 
-![Addressable LEDs](/media/alup/leds_on.JPG)
+<img src="{{site.baseurl}}/media/alup/leds_on.JPG" alt="Addressable LEDs" class="rounded-image"/>
+
 
 ## Overview
 The Arduino LED USB Protocol is one of my biggest and most passionate personal projects.

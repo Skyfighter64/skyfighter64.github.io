@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![Test Image](media/index/nordseher-castle-crop.JPG)
+<img src="/media/index/nordseher-castle-crop (Groß).JPG" alt="Test Image" class="rounded-image" />
 <br/>
 Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/)
 <br/>
