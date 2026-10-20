@@ -23,10 +23,10 @@ To bridge the barrier between hardware and software, I am creating optimized sol
 - Communication and Networking
 
 __<u>My personal interest and hobbies:</u>__
-- Working on my Robotics and Embedded projects
-- Lighting up the world with my addressable LEDs
 - Repairing and fixing everyday items
-- CAD design, 3D-Printing and 3D printer hardware
+- Working on advanced robotics and embedded projects
+- Lighting up the world with addressable LEDs
+- CAD design, 3D printing and 3D printer hardware
 - Photography
 - and more...
 

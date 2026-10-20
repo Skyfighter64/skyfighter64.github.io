@@ -8,25 +8,6 @@ featured: true
 
 <img src="{{site.baseurl}}/media/alup/leds_on.JPG" alt="Addressable LEDs" class="rounded-image"/>
 
-
-## Overview
-The Arduino LED USB Protocol is one of my biggest and most passionate personal projects.
-
-It defines a protocol standard for controlling addressable LEDs from any computer over USB, WiFi, or any other connection.
-<br/><br/>
-
-## Project Goals:
-Make the usage of addressable LEDs 
-- Accessible for any device like a computer, laptop and more
-- Usable via any connection like USB, WiFi or others
-- Update in real-time and synchronously over multiple LED strips
-
-
-# Start Here: 
-- #### [Introduction to ALUP]({% post_url 2026-03-01-Introduction-To-ALUP%})
-
-
-
 ## Related Posts
 
 <ul>
@@ -39,7 +20,24 @@ Make the usage of addressable LEDs
   {% endfor %}
 </ul>
 
-## GitHub Projects
+## Project Overview
+The Arduino LED USB Protocol is one of my biggest and most passionate personal projects.
+
+It defines a protocol standard for controlling addressable LEDs from any computer over USB, WiFi, or any other connection.
+<br/><br/>
+
+## Goals:
+Make the usage of addressable LEDs 
+- Accessible for any device like a computer, laptop and more
+- Usable via any connection like USB, WiFi or others
+- Update in real-time and synchronously over multiple LED strips
+
+
+### Start Here: 
+- #### [Introduction to ALUP]({% post_url 2026-03-01-Introduction-To-ALUP%})
+
+
+### GitHub Projects
 - [ALUP-Protocol Definition](https://github.com/Skyfighter64/ALUP) - Textual definition of the ALUP Communication Protocol itself
 - [Python-ALUP](https://github.com/Skyfighter64/Python-ALUP) - Python Reference Implementation for an ALUP Sender
 - [Arduino-ALUP](https://github.com/Skyfighter64/Arduino-ALUP) - Reference Implementation for an ALUP Receiver using the Arduino Framework
