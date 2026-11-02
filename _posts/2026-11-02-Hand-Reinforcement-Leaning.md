@@ -84,3 +84,33 @@ We ran this experiment multiple times with different rewards, agents and environ
 </figure>
 </center>
 
+
+
+## Task 2: Catch Falling Ball
+The second is a more advanced version of the first: The robot hand now points downwards with the ball spawning just below. After one second of simulation-time, the ball starts to fall down. The task is once again simple: 
+
+__Don't drop the ball__
+
+Similarly to before, our PPO agent gets rewarded for keeping the ball in a high position and punished every time the ball drops. In this case however, we needed to shrink the ball a little bit because holding the big one from before was not really possible due to reach limitations.
+
+
+<center>
+<figure>
+  <img src="{{site.baseurl}}/media/robot_hand/catch_ball_task.png" alt="Image of the robot hand" width="60%" style="display: block; margin: 0 auto" class="rounded-image"/>
+  <figcaption>The environment for the ball-catching task.</figcaption>
+</figure>
+</center>
+
+The agent successfully used the one second we gave him to grab the ball before it was able to fall down. It did so by pinching it in between the thumb and index finger while curling up the ring finger to further support the ball and secure it against sideways movements. This was surprisingly similar to how a human could handle a similar situation, assuming he would not be able to reposition its hand in any other way.
+
+
+<center>
+<figure>
+  <img src="{{site.baseurl}}/media/robot_hand/catch_ball_solve.png" alt="Image of the robot hand" width="60%" style="display: block; margin: 0 auto" class="rounded-image"/>
+  <figcaption>A solution for this task found by the agent.</figcaption>
+</figure>
+</center>
+
+
+With this result, we also consider this task as successfully solved.
+
