@@ -15,11 +15,7 @@ We already introduced the simulated robot hand and reinforcement learning [here]
 You can find a video demonstration here:
 
 <div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/NnyTsH5burA"
-    title="YouTube video of reinforcement learning tasks"
-    allowfullscreen>
-  </iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NnyTsH5burA?si=1lFoXSYl4txXqgWm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <style>
