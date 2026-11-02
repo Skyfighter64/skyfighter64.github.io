@@ -62,3 +62,6 @@ exclude:
 include:
   - _includes/head.html
 
+header_pages:
+  - projects.md
+

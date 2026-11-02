@@ -16,7 +16,7 @@ My robotic projects currently focus on an old vacuum robot which I modify for fu
 
 
 
-## Related Posts
+## All Posts
 
 <ul>
   {% for post in site.posts%}

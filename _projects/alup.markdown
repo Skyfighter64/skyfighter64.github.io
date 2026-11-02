@@ -8,7 +8,7 @@ featured: true
 
 <img src="{{site.baseurl}}/media/alup/leds_on.JPG" alt="Addressable LEDs" class="rounded-image"/>
 
-## Related Posts
+## All Posts
 
 <ul>
   {% for post in site.posts %}

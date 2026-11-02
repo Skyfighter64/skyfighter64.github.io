@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: All Projects
 permalink: /projects/
 ---
 
@@ -15,7 +15,7 @@ permalink: /projects/
 
 Let's face it, every computer scientist and engineer has a load of fun and interesting personal projects. While some of them stay small and unfinished, others have the potential to be something special.
 
-Below are some blog posts of my biggest personal projects, which I deem to be worthy for others to see.
+Below are some blog posts of my biggest personal projects, which I deem to be worthy for others to enjoy.
 <br/>
 
 ---
