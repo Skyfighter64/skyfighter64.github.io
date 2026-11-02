@@ -12,7 +12,7 @@ Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-archite
             --image-height: 180px;">
 
   <img src="/media/robot_hand/peace.png" alt="image" class="no-lightbox" style="object-fit: cover; object-position: 50% 30%;; ">
-  <img src="/media/alup/leds_on.jpg" alt="image" class="no-lightbox">
+  <img src="/media/alup/leds_on.JPG" alt="image" class="no-lightbox">
   <img src="/media/alup/d1_mini_pcb.jpg" alt="image" class="no-lightbox">
   <img src="/media/index/code.png" alt="image" class="no-lightbox">
 </div>
