@@ -4,10 +4,18 @@
 
 layout: home
 ---
-<img src="/media/index/nordseher-castle-crop (Groß).JPG" alt="Test Image" class="rounded-image no-lightbox" />
+<!-- <img src="/media/index/nordseher-castle-crop (Groß).JPG" alt="Test Image" class="rounded-image no-lightbox" />
 <br/>
-Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/)
-<br/>
+Image Credits: [Nordseher on Pixabay](https://pixabay.com/de/photos/burg-architektur-schiff-nebelmeer-8519077/) -->
+<div class="image-gallery-nogap" style="--columns: 4;
+            --gallery-width: 1100px;
+            --image-height: 180px;">
+
+  <img src="/media/robot_hand/peace.png" alt="image" class="no-lightbox" style="object-fit: cover; object-position: 50% 30%;; ">
+  <img src="/media/alup/leds_on.jpg" alt="image" class="no-lightbox">
+  <img src="/media/alup/d1_mini_pcb.jpg" alt="image" class="no-lightbox">
+  <img src="/media/index/code.png" alt="image" class="no-lightbox">
+</div>
 # Welcome to my homepage :)
 ---
 <br/>
@@ -16,7 +24,7 @@ This page is all about my personal projects, ideas, hobbies and interests. Here 
 
 
 __<u>Professional Interests:</u>__ \
-To bridge the barrier between hardware and software, I am creating optimized solutions using my skills in coding, 3D printing and physics in the areas of:
+To bridge the barrier between hardware and software, I am creating optimized solutions using my skills in software architecture, 3D printing and physics in the areas of:
 
 - Mobile Robots, Robot Arms and Robotic Hands
 - Microcontrollers and Embedded Devices

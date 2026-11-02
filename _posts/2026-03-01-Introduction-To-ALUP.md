@@ -42,9 +42,7 @@ and so much more.
 If you are interested in this project, I suggest checking out more posts here:
 - [ALUP Project Page](/projects/alup)
 
-Also make sure to check out my [GitHub](https://github.com/Skyfighter64/), where all the code and documentation is hosted. Some of the relevant repos are linked below.
-
-## GitHub Projects
+### GitHub Projects
 - [ALUP-Protocol Definition](https://github.com/Skyfighter64/ALUP) - Textual definition of the ALUP Communication Protocol itself
 - [Python-ALUP](https://github.com/Skyfighter64/Python-ALUP) - Python Reference Implementation for an ALUP Sender
 - [Arduino-ALUP](https://github.com/Skyfighter64/Arduino-ALUP) - Reference Implementation for an ALUP Receiver using the Arduino Framework

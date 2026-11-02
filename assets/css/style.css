@@ -24,6 +24,28 @@
   width: 100%;
   height: 80%;
 }
+.image-gallery-nogap {
+  display: grid;
+  grid-template-columns: repeat(var(--columns, 2), minmax(0, 1fr));
+  grid-auto-rows: var(--image-height, 240px);
+  gap: 0;
+  width: 100%;
+  max-width: var(--gallery-width, 900px);
+  margin: 20px auto;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-gallery-nogap img {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+}
 
 .image-gallery {
   display: grid;
