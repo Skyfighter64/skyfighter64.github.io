@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Robot Arm Kinematic Learning | DIY Robot Hand"
-date:   2026-11-02 00:13:19 +0200
+date:   2026-11-05 00:14:16 +0200
 categories: robots
 project: robotics
 ---
